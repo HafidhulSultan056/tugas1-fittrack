@@ -41,3 +41,15 @@ tugas1-fittrack/
     ├── Member.java     # Class data model dan validasi member gym
     └── TesFitTrack.java  # Class utama untuk pengujian program (Main)
 
+## Cara Menjalankan Program
+
+Pastikan komputer sudah terinstal **Java Development Kit (JDK)**. Ikuti langkah-langkah berikut di terminal/command prompt:
+
+1. Buka terminal lalu arahkan direktori ke folder penyimpanan project:
+   ```bash
+   cd tugas1-fittrack
+
+   javac src/Member.java src/TesFitTrack.java
+  
+   java -cp src TesFitTrack
+
