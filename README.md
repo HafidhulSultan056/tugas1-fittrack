@@ -30,3 +30,14 @@ FitTrack adalah sistem pendataan member gym berbasis Java yang dirancang untuk m
 
 | \*\*Method Overriding\*\* | Method `toString()` di class `Member` | Mengubah representasi string bawaan Java menjadi tampilan data member yang rapi dan berlabel. |
 
+## Struktur Direktori Project
+
+```text
+tugas1-fittrack/
+│
+├── .gitignore          # Pengaturan file yang diabaikan oleh Git
+├── README.md           # Dokumentasi penjelasan project
+└── src/                # Folder penyimpanan source code Java
+    ├── Member.java     # Class data model dan validasi member gym
+    └── TesFitTrack.java  # Class utama untuk pengujian program (Main)
+
