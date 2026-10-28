@@ -53,3 +53,17 @@ Pastikan komputer sudah terinstal **Java Development Kit (JDK)**. Ikuti langkah-
   
    java -cp src TesFitTrack
 
+## Ringkasan Aturan Validasi & Pengujian
+
+Program FitTrack mengimplementasikan beberapa aturan validasi pada class `Member` untuk memastikan integritas data[cite: 1]:
+
+1. **Nama Member**: Tidak boleh bernilai `null`, kosong, atau hanya terdiri dari spasi.
+2. **Nomor Telepon**: Harus diawali dengan angka `'0'` dan memiliki panjang minimal 10 digit.
+3. **Jenis Paket**: Hanya menerima pilihan `"Basic"`, `"Premium"`, atau `"VIP"`.
+
+### Skenario Pengujian pada `TesFitTrack`
+- **Pembuatan Objek Normal**: Memastikan data yang valid tersimpan dengan benar (paket VIP, Premium, dan Basic default).
+- **Penolakan Data Invalid**: Sistem otomatis menolak nomor telepon yang terlalu pendek atau jenis paket yang tidak sesuai daftar, lalu menampilkan pesan error serta mempertahankan nilai default yang aman[cite: 1].
+- **Method `toString()`**: Mengubah representasi objek menjadi format teks berlabel yang mudah dibaca[cite: 1].
+
+
