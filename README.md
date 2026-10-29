@@ -66,4 +66,9 @@ Program FitTrack mengimplementasikan beberapa aturan validasi pada class `Member
 - **Penolakan Data Invalid**: Sistem otomatis menolak nomor telepon yang terlalu pendek atau jenis paket yang tidak sesuai daftar, lalu menampilkan pesan error serta mempertahankan nilai default yang aman[cite: 1].
 - **Method `toString()`**: Mengubah representasi objek menjadi format teks berlabel yang mudah dibaca[cite: 1].
 
+## Catatan Pengembangan
 
+Project ini dikembangkan secara bertahap menggunakan kontrol versi Git untuk memenuhi standar kualitas kode pada Praktikum Pemrograman Berorientasi Objek (PBO), dengan penekanan pada:
+- Penerapan *Encapsulation* dan validasi ketat pada data masukan.
+- Pemenuhan prinsip *Clean Code* (konstanta `final`, menghindari *magic number/string*)[cite: 1].
+- Dokumentasi kode yang lengkap melalui *Javadoc* dan panduan penggunaan via README[cite: 1].
