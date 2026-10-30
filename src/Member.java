@@ -67,10 +67,11 @@ public class Member {
 
      @Override
      public String toString() {
-	    return "Data Member:\n" +
-		   "- Nama		: " + nama + "\n" +
-		   "- No Telepon	: " + noTelepon + "\n" +
-		   "- Tanggal Daftar: " + tanggalDaftar + "\n" +
-		   "- Jenis Paket	: " + jenisPaket + "\n";
-     }
+     	return "Data Member:\n" +
+               "- Nama           : " + nama + "\n" +
+               "- No Telepon     : " + noTelepon + "\n" +
+               "- Tanggal Daftar : " + tanggalDaftar + "\n" +
+               "- Jenis Paket    : " + jenisPaket + "\n" +
+               "----------------------------------------";
+ }
 }
